@@ -1,0 +1,42 @@
+{
+  "name": "food-1",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "NEXT_PUBLIC_API_BASE_URL",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "start-pm2": "next start -p 5004"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.6.0",
+    "@fortawesome/free-solid-svg-icons": "^6.6.0",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "axios": "^1.7.7",
+    "dayjs": "^1.11.13",
+    "food-1": "file:",
+    "js-cookie": "^3.0.5",
+    "jwt-decode": "^4.0.0",
+    "next": "^15.2.2",
+    "nouislider": "^15.8.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-slick": "^0.30.2",
+    "slick-carousel": "^1.8.1",
+    "swiper": "^11.1.14"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/react-slick": "^0.23.13",
+    "@types/swiper": "^5.4.3",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.14",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.14",
+    "typescript": "^5"
+  }
+}

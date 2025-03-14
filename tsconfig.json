@@ -1,0 +1,45 @@
+{
+  "compilerOptions": {
+    
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext",
+      
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    },
+    "target": "ES2017"
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "app/page/test/page.jsx",
+    "app/page/api/proxy.ts",
+    "app/page/product/page.tsx"
+, "app/page/pricing/page.jsx", "app/component/Pagination.jsx", "app/page/leftnew/page.jsx", "app/page/rightnew/page.jsx", "app/page/newslist/page.jsx"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

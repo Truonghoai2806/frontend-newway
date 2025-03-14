@@ -1,0 +1,49 @@
+/* styles.css */
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+    .container {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  
+    .table {
+      width: 100%;
+      display: block;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+  
+    .purchase-history h2 {
+      font-size: 1.875rem; /* 30px */
+    }
+  
+    .purchase-history table thead th,
+    .purchase-history table tbody td {
+      padding: 0.75rem;
+      font-size: 0.875rem; /* 14px */
+    }
+  
+    .purchase-history img {
+      width: 2.5rem; /* 40px */
+      height: 2.5rem;
+    }
+  }
+  
+  @media (max-width: 640px) {
+    .purchase-history h2 {
+      font-size: 1.5rem; /* 24px */
+    }
+  
+    .purchase-history table thead th,
+    .purchase-history table tbody td {
+      padding: 0.5rem;
+      font-size: 0.75rem; /* 12px */
+    }
+  
+    .purchase-history img {
+      width: 2rem; /* 32px */
+      height: 2rem;
+    }
+  }
+  

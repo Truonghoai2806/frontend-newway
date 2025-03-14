@@ -1,0 +1,72 @@
+/* order.css */
+
+/* General adjustments for mobile-first approach */
+.order-page {
+    padding: 1.5rem 0;
+  }
+  
+  /* Responsive styles */
+  @media (min-width: 1024px) {
+    .order-page {
+      padding: 3rem 0;
+    }
+    
+    .order-page h2 {
+      font-size: 2.25rem; /* Increase heading size for larger screens */
+    }
+  
+    /* Adjust table layout for larger screens */
+    .order-page table th,
+    .order-page table td {
+      padding: 1rem;
+    }
+    
+    .order-page .customer-info,
+    .order-page .shipping-info {
+      padding: 1.5rem;
+    }
+  }
+  
+  /* Custom styles for the order summary */
+  .order-summary {
+    margin-top: 1rem;
+  }
+  
+  .order-summary li {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  .order-summary li:last-child {
+    border-bottom: none;
+  }
+  
+  /* Custom styles for customer information and shipping info sections */
+  .customer-info,
+  .shipping-info {
+    background-color: #fff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+  }
+  
+  /* Modify padding for smaller screens */
+  @media (max-width: 767px) {
+    .order-page h2 {
+      font-size: 1.75rem;
+    }
+  
+    .order-page table th,
+    .order-page table td {
+      padding: 0.5rem;
+    }
+  
+    .order-summary {
+      margin-top: 0.5rem;
+    }
+  
+    .order-summary li {
+      padding: 0.5rem;
+    }
+  }
+  
